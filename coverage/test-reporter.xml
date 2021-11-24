@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/src/test/app.test.js">
+        <testCase name="Get Endpoints Get" duration="30">
+            <failure message="Error: listen EADDRINUSE: address already in use :::3000"><![CDATA[Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/src/app.js:19:18)
+    at Runtime._execModule (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/node_modules/jest-runtime/build/index.js:1646:24)
+    at Runtime._loadModule (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/node_modules/jest-runtime/build/index.js:1185:12)
+    at Runtime.requireModule (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/node_modules/jest-runtime/build/index.js:1009:12)
+    at Runtime.require [as requireModuleOrMock] (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/node_modules/jest-runtime/build/index.js:1210:21)
+    at Object.<anonymous> (/Users/CarolChiara/fiap-application-security/lab2-sonarqube-lgtm/src/test/app.test.js:2:17)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>
